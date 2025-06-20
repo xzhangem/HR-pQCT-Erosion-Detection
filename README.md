@@ -4,4 +4,6 @@ The test of this codes needs the HR-pQCT joint volume. For the enquiry of input 
 
 
 ### Descriptions 
+Cropping tool takes slice-wise HR-pQCT scanning of whole hand joints, and outputs the individual 3D joint volumes in .nii format.  
+
 The codes are tested on MATLAB R2019 or above. The levelset_utils file contains the codes for level set-based cortical surface construction, and the curvature_utils file contains the codes for surface curvature-based features for erosion detection. UI.mlapp is a simple MATLAB UI with input of joint volume (in .nii format) and outputs the bone segmentation and erosion detection results (in .nii format).    
