@@ -6,6 +6,6 @@ The test of this codes needs the HR-pQCT joint volume. For the enquiry of input 
 ### Descriptions 
 The codes are tested on MATLAB R2019 or above version.
 
-Cropping tool takes DICOM slices of whole hand joints, and outputs the individual 3D metacarpophalangeal (MCP) in .nii format. 
+Cropping tool takes DICOM slices of whole hand joints, and outputs the individual 3D metacarpophalangeal (MCP) in .nii format. This function is descibed in Section 2.1.1 of the paper. 
 
 The levelset_utils file contains the codes for level set-based cortical surface construction, and the curvature_utils file contains the codes for surface curvature-based features for erosion detection. UI.mlapp is a simple MATLAB UI with input of MCP volume (in .nii format) and outputs the bone segmentation and erosion detection results (in .nii format).    
